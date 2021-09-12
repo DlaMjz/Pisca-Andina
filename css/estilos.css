@@ -1,0 +1,59 @@
+body {background-color: #ECF0F1;}
+
+h1
+{
+    font-size: 400%;
+    color:#1ABC9C;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.principal
+{
+    text-align:center;
+    color: #117864;
+    font-size: 200%;
+}
+
+hr
+{
+    height: 10px;
+    background-color: #1ABC9C;
+}
+
+p
+{
+    width: 80%;
+    text-align: center;
+    margin-left: 8%;
+    font-size: 120%;
+}
+
+h2
+{
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+img 
+{
+    margin-left: 35%;
+    height: 30%; 
+    width: 30%
+}
+
+ul
+{
+    font-size: 120%;
+}
+
+ol
+{
+    font-size: 120%;
+}
+
+video
+{
+    width: 37%;
+    height: 37%;
+}
