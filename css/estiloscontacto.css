@@ -1,0 +1,189 @@
+body 
+{
+    background-image:url("../imagenes/m1.jpg"); background-attachment: fixed; background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+header
+{
+    background-color: rgba(253, 254, 254, 0.7);
+    margin-left: 10px ; margin-right: 10px; margin-bottom: 0.2%;      
+}
+
+h1
+{
+    padding-top: 1%;
+    font-size: 400%;
+    color:#1ABC9C;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+}
+
+h1:hover
+{
+    color: #0d866e;
+}
+
+.principal
+{
+    text-align: center ;
+    color: #117864;
+    font-size: 200%;
+    padding-bottom: 1%;
+    text-decoration: underline;
+}
+
+.principal:hover
+{
+font-size: 180%;
+}
+
+section
+{
+    background-color: rgba(253, 254, 254, 0.7);
+    margin-left: 10px ; margin-right: 10px; margin-bottom: 1.5%;
+}
+
+.titulo
+{
+    text-align: center ;
+    color: #117864;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo:hover
+{
+    border-bottom: 5px solid #1ABC9C;
+}
+
+form
+{
+   text-align: center;
+}
+
+input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgb(226, 226, 226) ;
+    border-bottom: 2px solid #1ABC9C;
+    width: 50%;
+    font-size: 25px;
+    margin-bottom:20px ;
+    padding-left: 10px;
+}
+textarea{
+    border: 2px solid #1ABC9C;
+    border-radius: 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1ABC9C;
+    transition: ease-in 0.8s; 
+}
+
+button:hover
+{
+    background-color: rgb(215, 219, 221);
+}
+
+.inicio
+{
+    color:black;
+    text-decoration: none;
+    margin-left: 47%;
+}
+
+.inicio:hover
+{
+    font-size: 110%;
+}
+
+footer
+{
+    display:flex;
+    background-color:  #117864 ;
+    clear: both;
+    align-items: center;
+    height: 65px;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-left: 10px ; margin-right: 10px;
+}
+
+.logos
+{
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 45%;
+}
+
+.fb
+{
+    width: 35px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.fb:hover
+{
+    width: 40px;
+}
+
+.ig 
+{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.ig:hover
+{
+    width: 45px;
+}
+
+.twt
+{
+    width: 50px; 
+}
+
+.twt:hover
+{
+    width: 55px;
+}
+
+.autor
+{
+   margin-left: 23%;
+   font-size: 80%;
+   margin-right: 1%;
+}
+
+.autor:hover
+{
+    font-size: 100%;
+}
+
+.wimg
+{
+    width: 80px;
+    position: fixed;
+    top: 80%;
+    right: 2%;
+
+}
+
+.wimg:hover
+{
+    width: 90px;
+}
+
