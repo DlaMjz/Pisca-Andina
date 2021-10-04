@@ -1,3 +1,12 @@
+@font-face 
+{
+    font-family: Antiqua;
+    src: url(../fuentes/ANTQUAB.TTF)
+    format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body 
 {
     background-image:url("../imagenes/m1.jpg"); background-attachment: fixed; background-repeat: no-repeat;
@@ -13,10 +22,10 @@ header
 h1
 {
     padding-top: 1%;
-    font-size: 400%;
+    font-size: 5rem;
     color:#1ABC9C;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+    font-family:Antiqua;        
 }
 
 h1:hover
@@ -28,14 +37,9 @@ h1:hover
 {
     text-align: center ;
     color: #117864;
-    font-size: 200%;
+    font-size: 2.5rem;
     padding-bottom: 1%;
     text-decoration: underline;
-}
-
-.principal:hover
-{
-font-size: 180%;
 }
 
 section
@@ -48,8 +52,7 @@ section
 {
     text-align: center ;
     color: #117864;
-    font-size: 200%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
 }
 
 .titulo:hover
@@ -62,27 +65,29 @@ form
    text-align: center;
 }
 
-input, textarea {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+input, textarea 
+{
+    font-family: "Josefin Sans", sans-serif;
     border: none;
     background-color:rgb(226, 226, 226) ;
     border-bottom: 2px solid #1ABC9C;
-    width: 50%;
-    font-size: 25px;
+    width: 50vw;
+    font-size: 1.5rem;
     margin-bottom:20px ;
     padding-left: 10px;
 }
+
 textarea{
     border: 2px solid #1ABC9C;
     border-radius: 10px;
 }
 button{
-    width: 150px;
-    height: 40px;
+    width: 13%;
+    height: 5%;
     border: none;
     outline: none;
     color: black;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 800;
     border-radius: 10px;
     cursor: pointer;
@@ -100,11 +105,12 @@ button:hover
     color:black;
     text-decoration: none;
     margin-left: 47%;
+    font-size: 0.8rem;
 }
 
 .inicio:hover
 {
-    font-size: 110%;
+    font-size: 1rem;
 }
 
 footer
@@ -113,7 +119,7 @@ footer
     background-color:  #117864 ;
     clear: both;
     align-items: center;
-    height: 65px;
+    height: 8vh;
     overflow: auto;
     box-sizing: border-box;
     margin-left: 10px ; margin-right: 10px;
@@ -129,53 +135,48 @@ footer
 
 .fb
 {
-    width: 35px;
+    width: 2vw;
     margin-right: 20px;
     margin-top: 8px;
 }
 
 .fb:hover
 {
-    width: 40px;
+    width: 3vw;
 }
 
 .ig 
 {
-    width: 40px;
+    width: 2.5vw;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .ig:hover
 {
-    width: 45px;
+    width: 3.5vw;
 }
 
 .twt
 {
-    width: 50px; 
+    width: 3vw; 
 }
 
 .twt:hover
 {
-    width: 55px;
+    width: 4vw;
 }
 
 .autor
 {
-   margin-left: 23%;
-   font-size: 80%;
-   margin-right: 1%;
-}
-
-.autor:hover
-{
-    font-size: 100%;
+   margin-left: 25%;
+   font-size: 0.8rem;
+   margin-right: 2%;
 }
 
 .wimg
 {
-    width: 80px;
+    width: 5vw;
     position: fixed;
     top: 80%;
     right: 2%;
@@ -184,6 +185,6 @@ footer
 
 .wimg:hover
 {
-    width: 90px;
+    width: 5.5vw;
 }
 
