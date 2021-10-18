@@ -6,3 +6,5 @@ Contenedores, clase del 13/09
 Hoover - animaciones, clase 20/09
 # Tarea-6
 fuentes - medidas, clase 27/09
+# Tarea-7
+Media Queries, FlexBox
