@@ -71,7 +71,7 @@ input, textarea
     border: none;
     background-color:rgb(226, 226, 226) ;
     border-bottom: 2px solid #1ABC9C;
-    width: 50vw;
+    width: 50%;
     font-size: 1.5rem;
     margin-bottom:20px ;
     padding-left: 10px;
@@ -81,8 +81,17 @@ textarea{
     border: 2px solid #1ABC9C;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    input, textarea{
+        width: 90%;
+        padding-left: 0%;
+    }
+    
+}
+
 button{
-    width: 13%;
+    width: 100px;
     height: 5%;
     border: none;
     outline: none;
@@ -100,6 +109,14 @@ button:hover
     background-color: rgb(215, 219, 221);
 }
 
+@media screen and (width: 1000px) {
+    button{
+        width: 200px;
+        
+    }
+    
+}
+
 .inicio
 {
     color:black;
@@ -115,12 +132,10 @@ button:hover
 
 footer
 {
+    margin-top: 10px;
     display:flex;
     background-color:  #117864 ;
     clear: both;
-    align-items: center;
-    height: 8vh;
-    overflow: auto;
     box-sizing: border-box;
     margin-left: 10px ; margin-right: 10px;
 }
@@ -128,63 +143,61 @@ footer
 .logos
 {
     display: flex;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 45%;
+    justify-content: center;
+    width: 80%;
 }
 
 .fb
 {
-    width: 2vw;
+    width: 45px;
     margin-right: 20px;
     margin-top: 8px;
 }
 
 .fb:hover
 {
-    width: 3vw;
+    width: 50px;
 }
 
 .ig 
 {
-    width: 2.5vw;
+    width: 45px;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .ig:hover
 {
-    width: 3.5vw;
+    width: 50px;
 }
 
 .twt
 {
-    width: 3vw; 
+    width: 65px; 
 }
 
 .twt:hover
 {
-    width: 4vw;
+    width: 70px;
 }
 
 .autor
 {
-   margin-left: 25%;
-   font-size: 0.8rem;
-   margin-right: 2%;
+    width: 20%;
+    display: flex;
+    font-size: 0.8rem;
+    margin-right: 2%;
 }
 
 .wimg
 {
-    width: 5vw;
-    position: fixed;
+    position:fixed;
+    width: 70px;
     top: 80%;
     right: 2%;
-
 }
 
 .wimg:hover
 {
-    width: 5.5vw;
+    width: 75px;
 }
-
