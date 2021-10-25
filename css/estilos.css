@@ -62,7 +62,7 @@ nav
 .link
 {
     float: left;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-left: 2.5% ;
     padding-left: 2.5%;
     margin-top: 1%;
@@ -236,6 +236,12 @@ ol::after
     }
   }
 
+  @media screen and (max-width: 1000px) {
+    ::after{
+        width: 85%;
+    }
+}
+
 aside
 {
     display: flex;
@@ -316,6 +322,24 @@ aside
     width: 100%;
 }
 
+.card-text
+{
+    text-align:left;
+}
+
+.btn-primary
+{
+    color: white;
+    background-color: #117864;
+    border-color: #117864;
+}
+
+@media screen and (max-width: 1000px) {
+    .elemento1{
+        margin-bottom: 3%;
+    }
+}
+
 footer
 {
     margin-top: 10px;
@@ -365,6 +389,12 @@ footer
 .twt:hover
 {
     width: 70px;
+}
+
+@media screen and (max-width: 1000px) {
+    .logos{
+        padding-top: 8%;
+    }
 }
 
 .autor
