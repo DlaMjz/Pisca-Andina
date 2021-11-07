@@ -17,7 +17,7 @@ body
 @media screen and (max-width: 700px) {
     body{
         background-image: none;
-        background-color: grey;
+        background-color:rgb(189, 189, 189);
     }
 }
 
@@ -47,6 +47,19 @@ h1:hover
     color: #117864;
     font-size: 2.5rem;
     padding-bottom: 1%;
+}
+
+.cambiar
+{
+    border: none;
+    color:#117864;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cambiar:hover
+{
+    font-size: 1.3rem;
 }
 
 nav 
@@ -391,16 +404,29 @@ footer
 
 @media screen and (max-width: 1000px) {
     .logos{
-        padding-top: 8%;
+        height: 30px;
     }
 }
 
 .autor
 {
-    width: 20%;
     display: flex;
-    font-size: 0.8rem;
-    margin-right: 2%;
+    margin-top: 18px;
+    height: 10%;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1ABC9C;
+}
+
+@media screen and (max-width: 1000px) {
+    .autor{
+        margin-top: 2px;
+        }
 }
 
 .wimg img
@@ -415,4 +441,6 @@ footer
 {
     width: 75px;
 }
+
+
 
